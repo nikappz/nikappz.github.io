@@ -1,14 +1,36 @@
+/*
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+*/
 
-p{
+@font-face {
+  font-family: 'BYekan';
+  src: url('font/BYekan.eot?#') format('eot'),  
+       url('font/BYekan.woff') format('woff'),  
+       url('font/BYekan.ttf') format('truetype');  
+}
+
+p, h2, h4 {
   text-align: right;
 }
+#contact {
+  text-align: center;
+}
+.centerp {
+  text-align: center;
+}
+/*
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+*/
 
 
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'BYekan','Poppins', sans-serif;
   color: #222;
 }
 
@@ -41,14 +63,17 @@ html, body {
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+/*
 .btn-primary {
   background-color: #6648b1;
   border: 1px solid #6648b1;
 }
+
 .btn-primary:hover {
   background-color: #563d7c;
   border: 1px solid #563d7c;
 }
+*/
 .jumbotron {
   padding: 1rem;
   border-radius: 0;

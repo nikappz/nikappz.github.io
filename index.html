@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 	<div class="container-fluid">
-		
+		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -26,20 +26,20 @@
 					<a class="nav-link" href="#">خانه</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">درباره</a>
+					<a class="nav-link" href="#products">محصولات</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">خدمات</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">گروه</a>
+					<a class="nav-link" href="#about">درباره</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">ارتباط</a>
+					<a class="nav-link" href="#contact">تماس</a>
 				</li>
 			</ul>
 		</div>
-		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		
 	</div>
 </nav>
 
@@ -58,8 +58,9 @@
 			<div class="carousel-caption">
 				<h1 class="display-2">نیک اپزار</h1>
 				<h3>ساخت اپلیکیشن های اندرویدی</h3>
-				<button type="button" class="btn btn-primary btn-lg">سفارش ساخت</button>
-				<button type="button" class="btn btn-outline-light btn-lg">نمایش نمونه ها</button>
+				<h5>فروشگاه آنلاین برای کسب و کار شما</h5>
+				<a href="#products"><button type="button" class="btn btn-outline-light btn-lg">نمایش نمونه ها</button></a>
+				<a href="#contact"><button type="button" class="btn btn-primary btn-lg">سفارش ساخت</button></a>
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -76,11 +77,11 @@
 <!--- Jumbotron -->
 <div class="container-fluid">
 	<div class="row jumbotron">
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-			<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">سفارش ساخت وبسایت</button></a>
-		</div>
 		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
 			<p class="lead" dir="rtl">نیک اپزار در زمینه ساخت وبسایت نیز فعالیت می کند. طراحی، ساخت و راه اندازی وبسایت خود را به ما بسپارید.</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#contact"><button type="button" class="btn btn-outline-secondary btn-lg">سفارش ساخت وبسایت</button></a>
 		</div>
 	</div>
 </div>
@@ -91,18 +92,18 @@
 <div class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h1 class="display-4">Built with ease.</h1>
+			<h1 class="display-4" dir="rtl">کسب و کار خود را رونق دهید.</h1>
 		</div>
 		<hr>
 		<div class="col-12">
-			<p class="lead" dir="rtl">به نیک اپزار خوش آمدید. ما یک گروه نرم افزاری در زمینه ساخت اپلیکیشن های اندرویدی و نیز راه اندازی وبسایت ها هستیم.  </p>
+			<p class="lead" dir="rtl">به نیک اپزار خوش آمدید. ما یک گروه نرم افزاری در زمینه ساخت اپلیکیشن های اندرویدی و نیز راه اندازی وبسایت هستیم.  </p>
 		</div>
 	</div>
 </div>
 
 
 
-<!--- Three Column Section -->
+<!--- Three Column Section 
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-4">
@@ -124,9 +125,9 @@
 	<hr class="my-4">
 </div>
 
+-->
 
-
-<!--- Two Column Section -->
+<!--- Two Column Section 
 <div class="container-fluid padding">
 	<div class="row padding">
 		<div class="col-lg-6">
@@ -145,6 +146,9 @@
 
 
 <hr class="my-4">
+-->
+
+
 <!--- Fixed background -->
 <figure>
 	<div class="fixed-wrap">
@@ -156,33 +160,13 @@
 
 
 
-<!--- Emoji Section -->
-<button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
-<div id="emoji" class="collapse">
-	<div class="container-fluid padding">
-		<div class="row text-center">
-			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="img/gif/panda.gif ">
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="img/gif/poo.gif ">
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="img/gif/unicorn.gif ">
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="img/gif/chicken.gif ">
-			</div>
-		</div>
-	</div>
-</div>
 
   
 <!--- Meet the team -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="products">
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h1 class="display-4">Meet the team</h1>
+			<h1 class="display-4">محصولات</h1>
 		</div>
 		<hr>
 	</div>
@@ -191,35 +175,99 @@
 
 
 <!--- Cards -->
-<div class="container-fluid padding">
-	<div class="row padding">
+<div class="container-fluid">
+	<div class="row">
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="img/team1.png">
+				<img class="card-img-top" src="img/wifisocialguard.png">
 				<div class="card-body">
-					<h4 class="card-title">John Doe</h4>
-					<p class="card-text">John is an internet entrepreneur with almost 20 years of experience.</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<h4 class="card-title">نگهبان هک وای فای و شبکه های اجتماعی </h4>
+					<p class="card-text">دیگر نگران هک شدن وای-فای و استفاده افراد غیر مجاز از آن و یا حساب های کاربری خود در شبکه های اجتماعی نباشید. این برنامه به شما کمک می کند تا در برابر استفاده غیر مجاز دیگران از وای-فای منزل یا محل کارتان و یا نفوذ هکرها به شبکه های اجتماعی‌تان ایمن باشید.</p>
+					<a href="https://myket.ir/app/com.nikappzaar.app.wifisocialguard" class="btn btn-outline-secondary">دانلود از مایکت</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="img/team2.png">
+				<img class="card-img-top" src="img/recipenotes.png">
 				<div class="card-body">
-					<h4 class="card-title">Mary Jo</h4>
-					<p class="card-text">Mary is a designer with almost 10 years of digital design experience.</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<h4 class="card-title">کلاسر دستورپخت</h4>
+					<p class="card-text"> دستورپخت های خود را در این اپلیکیشن یادداشت، دسته بندی و مدیریت کنید و آنها را با دیگران به اشتراک بگذارید.  
+						<br><br><br><br>  </p>
+					<a href="https://cafebazaar.ir/app/com.nikappzaar.app.recipenotes" class="btn btn-outline-secondary">دانلوداز بازار</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="img/team3.png">
+				<img class="card-img-top" src="img/phplearn.png">
 				<div class="card-body">
-					<h4 class="card-title">Phil</h4>
-					<p class="card-text">Phil is a developer with over 5 years of web development experience.</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<h4 class="card-title">آموزش و آزمون PHP</h4>
+					<p class="card-text">زبان برنامه نویسی PHP و MySQL را در این اپلیکیشن یاد بگیرید و میزان یادگیری خود را نیز بسنجید.<br>
+						<br><br><br></p>
+					<a href="https://cafebazaar.ir/app/com.nikappzaar.learnphp" class="btn btn-outline-secondary">دانلود از بازار</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Emoji Section -->
+<button type="button" class="btn btn-outline-secondary fun" data-toggle="collapse" data-target="#emoji">دیگر محصولات</button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-sm-6 col-md-3">
+				<div class="card">
+					<img class="card-img-top" src="img/e-shopping.png">
+					<div class="card-body">
+						<h4 class="card-title">فروشگاه آنلاین </h4>
+						<p class="card-text">* اپلیکیشن فروشگاه آنلاین،
+							دارای قابلیت سفارشی سازی برای کسب و کار شما
+							<br>
+							* دارای پنل مدیریت فروش
+							<br>
+							* مناسب برای رستوران های بیرون بر، شیرینی فروشی ها و دیگر کسب و کارهای کوچک
+						</p>
+						<a href="#contact" class="btn btn-outline-secondary">سفارش ساخت</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="card">
+					<img class="card-img-top" src="img/fitness.png">
+					<div class="card-body">
+						<h4 class="card-title">تناسب اندام، سنجش و پایش </h4>
+						<p class="card-text">به کمک این اپلیکیشن تناسب اندام خود را بسنجید.
+							<br><br><br><br><br>
+						</p>
+						<a href="https://cafebazaar.ir/app/com.nikappzaar.bmi" class="btn btn-outline-secondary">دانلود از بازار</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="card">
+					<img class="card-img-top" src="img/htmllearn.png">
+					<div class="card-body">
+						<h4 class="card-title">آموزش HTML + آزمون</h4>
+						<p class="card-text">زبان نشانه گذاری HTML را در این اپلیکیشن یاد بگیرید و میزان یادگیری خود را نیز بسنجید.<br>
+						<br><br><br></p>
+						<a href="https://cafebazaar.ir/app/com.nikappzaar.learnhtml" class="btn btn-outline-secondary">دانلود از بازار</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="card">
+					<img class="card-img-top" src="img/bubble.png">
+					<div class="card-body">
+						<h4 class="card-title">بازی حباب ساز </h4>
+						<p class="card-text">یک بازی سرگرم کننده.
+							<br>
+							با ترکاندن حباب ها امتیاز بگیرید.
+							<br><br><br><br><br>
+						</p>
+						<a href="https://cafebazaar.ir/app/com.nikappzaar.game.bubbles" class="btn btn-outline-secondary">دانلود از بازار</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -227,17 +275,18 @@
 </div>
 
 
-
 <!--- Two Column Section -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="about">
 	<div class="row padding">
 		<div class="col-lg-6">
-			<img src="img/bootstrap2.png" class="img-fluid">
+			<h2>انگیزه ما ...</h2>
+			<p dir="rtl">باور ما این است که کیفیت کار ما می تواند کار شما را آسانتر کرده و کسب و کار شمار را پر رونق کند.</p>
+			<p>یک وب سایت یا اپلیکیشن نه تنها به کسب و کارهای کوچک کمک می کند تا محصولات و خدمات خود را تبلیغ و فروش کنند،
+				 بلکه به آنها امکان می دهد تا خود را از رقبای خود متمایز کنند، 
+				 به خصوص برای مشتریانی که به اینترنت اعتماد زیادی دارند تا همه چیز را درباره یک شرکت بیاموزند. این امر وب سایت و اپلیکیشن را به یکی از مهمترین دارایی های تجاری برای به اشتراک گذاری اطلاعات، به دست آوردن اعتبار و برجسته شدن در بازارهای پر رقابت تبدیل می کند.</p>
 		</div>
 		<div class="col-lg-6">
-			<h2>انگیزه ما ...</h2>
-			<p dir="rtl">باور ما این است که کیفیت کار ما می تواند کار شما را آسانتر کرده و کسب و کار شمار را از این رو به آن رو کند.</p>
-			<p>paragraph2</p>
+			<img src="img/office-night.png" class="img-fluid">
 		</div>
 	</div>
 	<hr class="my-4">
@@ -248,13 +297,13 @@
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-12">
-			<h2>تماس</h2>
+			<h2 id="contact">تماس</h2>
 		</div>
 		<div class="col-12 social padding">
 			<a href="#"><i class="fab fa-facebook"></i></a>
 			<a href="#"><i class="fab fa-twitter"></i></a>
 			<a href="#"><i class="fab fa-google-plus-g"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.instagram.com/nikappz/"><i class="fab fa-instagram"></i></a>
 			<a href="#"><i class="fab fa-youtube"></i></a>				
 		</div>
 	</div>
@@ -265,34 +314,23 @@
 <footer>
 	<div class="container-fluid padding">
 		<div class="row text-center">
-			<div class="col-md-4">
-				<img src="img/w3newbie.png">
+			<div class="col-md-6">
 				<hr class="light">
-				 <p>0916-851-****</p>
-				 <p>nikappzaar@gmail.com</p>
-				 <p>Ahvaz</p>
-				 <p>Khouzesten, Iran</p>
+				<h5>تماس</h5>
+				<hr class="light">
+				 <p class="centerp">nikappzaar@gmail</p>
+				 <p class="centerp">0916-851-8863</p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<hr class="light">
-				<h5>Our Hours</h5>
+				<h5>نشانی</h5>
 				<hr class="light">
-				 <p>Monday: 9am - 5pm</p>
-				 <p>Saturday: 10am - 4pm</p>
-				 <p>Sunday: closed</p>
-			</div>
-			<div class="col-md-4">
-				<hr class="light">
-				<h5>Service Area</h5>
-				<hr class="light">
-				<p>City, State, 00000</p>
-				<p>City, State, 00000</p>
-				<p>City, State, 00000</p>
-				<p>City, State, 00000</p>
+				<p class="centerp">اهواز</p>
+				<p class="centerp">خوزستان، ایران</p>
 			</div>
 			<div class="col-12">
 				<hr class="light-100">
-				<h5>&copy; nikappzaar.com</h5>
+				<h5>نیک اپزار | NikAppzaar &copy;</h5>
 			</div>
 		</div>
 	</div>		
